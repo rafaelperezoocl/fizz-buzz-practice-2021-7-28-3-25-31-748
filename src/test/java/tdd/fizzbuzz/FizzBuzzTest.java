@@ -41,10 +41,10 @@ public class FizzBuzzTest {
     {
         //given
         FizzBuzz fizzbuzz = new FizzBuzz();
-        String expected = "5";
+        String expected = "Buzz";
 
         //when
-        String actual = fizzbuzz.countOff(3);
+        String actual = fizzbuzz.countOff(5);
 
         //then
         assertEquals(expected, actual);
