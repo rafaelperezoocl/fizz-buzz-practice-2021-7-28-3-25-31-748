@@ -16,7 +16,11 @@ public class FizzBuzz {
         {
             return "Whizz";
         }
-
+//
+//        else if (order % 3 == 0 && order % 5 == 0)
+//        {
+//            return "FizzBuzz";
+//        }
         return String.valueOf(order);
     }
 }
